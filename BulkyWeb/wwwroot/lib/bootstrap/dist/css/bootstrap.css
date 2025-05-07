@@ -427,6 +427,7 @@ figure {
 img,
 svg {
     vertical-align: middle;
+    height: 350px;
 }
 
 table {
@@ -5038,12 +5039,13 @@ textarea.form-control-lg {
 .card-img-bottom {
     width: 100%;
 }
-
+ 
 .card-img,
 .card-img-top {
     border-top-left-radius: var(--bs-card-inner-border-radius);
     border-top-right-radius: var(--bs-card-inner-border-radius);
-}
+    height: 350px !important;
+} 
 
 .card-img,
 .card-img-bottom {
